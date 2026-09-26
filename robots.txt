@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kamertona.example/sitemap.xml
+Sitemap: https://justangelha.github.io/kamertona-blog/sitemap.xml
