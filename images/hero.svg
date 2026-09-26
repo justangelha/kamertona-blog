@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Рояль в камерном интерьере</title><desc id="desc">Редакционная иллюстрация рояля, нот и кресла в винно-молочной палитре</desc>
+  <rect width="900" height="1100" fill="#d8cfbf"/><rect x="56" y="58" width="788" height="984" fill="#eee8dc"/>
+  <path d="M56 760h788v282H56z" fill="#b7aa97"/><path d="M520 58h324v702H520z" fill="#7b3442"/>
+  <circle cx="682" cy="270" r="126" fill="#eadfcd"/><circle cx="682" cy="270" r="94" fill="#292522"/>
+  <path d="M617 303c48-35 86-78 113-133M658 350c38-42 69-94 88-154" fill="none" stroke="#e4d8c5" stroke-width="8" opacity=".55"/>
+  <path d="M170 640h440c83 0 144 51 168 120H243c-53 0-89-40-73-120z" fill="#302c29"/>
+  <path d="M228 720h510v80H228z" fill="#4b4540"/><path d="M255 720h456v51H255z" fill="#eee8dc"/>
+  <g fill="#292522"><path d="M278 720h19v31h-19zM320 720h19v31h-19zM385 720h19v31h-19zM428 720h19v31h-19zM470 720h19v31h-19zM535 720h19v31h-19zM578 720h19v31h-19zM643 720h19v31h-19z"/></g>
+  <path d="M280 800h28l-12 218h-28zM675 800h28l34 218h-28z" fill="#302c29"/>
+  <path d="M520 612V416h146v196" fill="none" stroke="#302c29" stroke-width="11"/><path d="M532 428h122v162H532z" fill="#f7f2e8"/>
+  <g fill="none" stroke="#7b3442" stroke-width="3"><path d="M551 472h84M551 486h84M551 500h84M551 514h84M551 528h84"/><path d="M568 467c20 6 12 25 28 26s9-18 28-12M567 508c15-7 21 14 36 13"/></g>
+  <path d="M100 98h240v9H100zM100 121h170v5H100z" fill="#7b3442" opacity=".7"/>
+  <text x="99" y="195" fill="#302c29" font-family="Georgia,serif" font-size="37" letter-spacing="2">ADAGIO</text>
+  <text x="99" y="229" fill="#74695f" font-family="Arial,sans-serif" font-size="12" letter-spacing="5">A ROOM FOR LISTENING</text>
+</svg>

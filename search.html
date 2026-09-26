@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Поиск по блогу — Камертона</title>
+    <meta
+      name="description"
+      content="Поиск статей Камертоны по названию, музыкальному инструменту, категории и ключевым словам."
+    />
+    <link rel="icon" href="images/theory.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/data.js" defer></script>
+    <script src="js/script.js" defer></script>
+  </head>
+  <body data-page="search">
+    <div data-site-header></div>
+    <main id="main">
+      <nav class="breadcrumbs container" aria-label="Хлебные крошки">
+        <a href="index.html">Главная</a>
+        <span>/</span>
+        <span aria-current="page">Поиск</span>
+      </nav>
+      <header class="page-hero">
+        <div class="container page-hero-inner">
+          <div>
+            <span class="eyebrow">Найти нужную тему</span>
+            <h1>Поиск</h1>
+          </div>
+          <p>
+            Ищите по названию, категории или ключевому слову. Результаты появляются сразу, без
+            перезагрузки страницы.
+          </p>
+        </div>
+      </header>
+      <section class="section container">
+        <div class="search-panel">
+          <label class="sr-only" for="site-search">Поиск по публикациям</label>
+          <div class="search-field">
+            <input
+              id="site-search"
+              type="search"
+              autocomplete="off"
+              placeholder="Например, аккорды или скрипка"
+              data-search-input
+            />
+            <button
+              class="search-clear"
+              type="button"
+              data-search-clear
+              aria-label="Очистить поиск"
+              hidden
+            >
+              ×
+            </button>
+          </div>
+          <p class="search-status" data-search-status aria-live="polite"></p>
+        </div>
+        <div class="card-grid" data-search-results></div>
+      </section>
+    </main>
+    <div data-site-footer></div>
+  </body>
+</html>

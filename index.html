@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Камертона — уютный блог о музыке, инструментах и практике</title>
+    <meta
+      name="description"
+      content="Музыкальный блог для тех, кто учится играть на фортепиано и скрипке, изучает теорию и ищет произведения для разучивания."
+    />
+    <meta
+      name="keywords"
+      content="музыкальный блог, фортепиано, скрипка, теория музыки, произведения для начинающих"
+    />
+    <meta name="author" content="Ангелина" />
+    <meta property="og:title" content="Камертона — блог о музыке как увлечении" />
+    <meta
+      property="og:description"
+      content="Практика, теория и музыка, к которой хочется возвращаться."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images/hero.svg" />
+    <link rel="icon" href="images/theory.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "Камертона",
+        "description": "Блог о музыке как увлечении",
+        "inLanguage": "ru-RU",
+        "author": { "@type": "Person", "name": "Ангелина" }
+      }
+    </script>
+    <script src="js/data.js" defer></script>
+    <script src="js/script.js" defer></script>
+  </head>
+  <body data-page="home">
+    <div data-site-header></div>
+    <main id="main">
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <div class="issue-label">Выпуск № 09 · Осень 2026</div>
+            <h1>
+              Музыка, к которой хочется
+              <em>вернуться</em>
+            </h1>
+            <p>
+              Практика без спешки, ясная теория и произведения, которые становятся частью вашей
+              жизни.
+            </p>
+            <a class="primary-link" href="catalog.html">
+              Открыть каталог
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h14M14 7l5 5-5 5"></path>
+              </svg>
+            </a>
+          </div>
+          <div class="hero-visual">
+            <img src="images/hero.svg" alt="Рояль в камерном интерьере с нотами" />
+            <span class="hero-caption">Иллюстрация редакции · Камертона</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="intro-strip">
+        <div class="container">
+          <span>Блог о музыке как хобби</span>
+          <p>Для тех, кто учится слышать, играть и не торопится.</p>
+          <a href="about.html">Наша история →</a>
+        </div>
+      </div>
+
+      <section class="section container" aria-labelledby="featured-title">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Главная история</span>
+            <h2 id="featured-title">Материал номера</h2>
+          </div>
+          <a class="arrow-link" href="catalog.html">
+            Все публикации
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 12h14M14 7l5 5-5 5"></path>
+            </svg>
+          </a>
+        </div>
+        <div data-featured></div>
+      </section>
+
+      <section class="section section-tinted">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">Читают чаще всего</span>
+              <h2>Популярные материалы</h2>
+            </div>
+          </div>
+          <div class="card-grid four-columns" data-grid="popular"></div>
+        </div>
+      </section>
+
+      <section class="section container">
+        <div class="editorial-pair">
+          <div class="editorial-image">
+            <img src="images/piano.svg" alt="Клавиши фортепиано и открытые ноты" loading="lazy" />
+          </div>
+          <div class="editorial-copy">
+            <span class="eyebrow">Инструмент крупным планом</span>
+            <h2>Фортепиано</h2>
+            <p>
+              От первого прикосновения к клавишам до внимательной работы над фразой. Материалы,
+              которые помогают заниматься регулярно и слышать больше.
+            </p>
+            <div class="editorial-links">
+              <a href="catalog.html?category=Фортепиано">Для начинающих</a>
+              <a href="catalog.html?category=Фортепиано">Упражнения</a>
+              <a href="catalog.html?category=Фортепиано">Разбор произведений</a>
+            </div>
+            <a class="arrow-link" href="catalog.html?category=Фортепиано">
+              Все о фортепиано
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h14M14 7l5 5-5 5"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="card-grid" data-grid="piano" style="margin-top: 70px"></div>
+      </section>
+
+      <section class="section section-tinted">
+        <div class="container">
+          <div class="editorial-pair reverse">
+            <div class="editorial-image">
+              <img
+                src="images/violin.svg"
+                alt="Скрипка и смычок на спокойном фоне"
+                loading="lazy"
+              />
+            </div>
+            <div class="editorial-copy">
+              <span class="eyebrow">Тонкая настройка</span>
+              <h2>Скрипка</h2>
+              <p>
+                Свободная постановка, чистая интонация и красивый звук. Понятные ориентиры для
+                первых месяцев знакомства с инструментом.
+              </p>
+              <div class="editorial-links">
+                <a href="catalog.html?category=Скрипка">Для начинающих</a>
+                <a href="catalog.html?category=Скрипка">Работа со смычком</a>
+                <a href="catalog.html?category=Скрипка">Интонация</a>
+              </div>
+              <a class="arrow-link" href="catalog.html?category=Скрипка">
+                Все о скрипке
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h14M14 7l5 5-5 5"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="card-grid" data-grid="violin" style="margin-top: 70px"></div>
+        </div>
+      </section>
+
+      <section class="section container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Понять, чтобы услышать</span>
+            <h2>Теория музыки</h2>
+          </div>
+          <a class="arrow-link" href="catalog.html?category=Теория%20музыки">
+            Весь раздел
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 12h14M14 7l5 5-5 5"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="card-grid" data-grid="theory"></div>
+      </section>
+
+      <section class="section section-dark">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">С чего начать слушать и играть</span>
+              <h2>Тематические подборки</h2>
+            </div>
+            <a class="arrow-link" href="catalog.html?category=Подборки">
+              Все подборки
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h14M14 7l5 5-5 5"></path>
+              </svg>
+            </a>
+          </div>
+          <div class="collection-grid" data-grid="collections"></div>
+        </div>
+      </section>
+
+      <section class="section container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Свежие заметки</span>
+            <h2>Последние публикации</h2>
+          </div>
+        </div>
+        <div class="latest-grid" data-grid="latest"></div>
+      </section>
+
+      <section class="about-band">
+        <div class="container">
+          <h2>
+            Слушать
+            <br />
+            внимательнее
+          </h2>
+          <div>
+            <p>
+              «Камертона» — независимый блог о музыке как личном пространстве. Мы пишем для взрослых
+              начинающих, любителей и всех, кому важны не рекорды, а любопытство и живой контакт со
+              звуком.
+            </p>
+            <a class="arrow-link" href="about.html">
+              Познакомиться с блогом
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h14M14 7l5 5-5 5"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div data-site-footer></div>
+    <noscript>
+      <p style="padding: 2rem; text-align: center">
+        Для поиска, фильтров и избранного включите JavaScript. Статьи и основная навигация доступны
+        без него.
+      </p>
+    </noscript>
+  </body>
+</html>

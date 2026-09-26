@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="t d"><title id="t">Теория музыки</title><desc id="d">Нотные листы, круг квинт и геометрические формы</desc>
+  <rect width="1200" height="820" fill="#ded5c7"/><circle cx="950" cy="164" r="205" fill="#6e2636"/><circle cx="950" cy="164" r="150" fill="none" stroke="#eadfd1" stroke-width="2"/><circle cx="950" cy="164" r="82" fill="none" stroke="#eadfd1" stroke-width="2"/>
+  <path d="M82 116h660v588H82z" fill="#f6f0e6" stroke="#a89d8e" stroke-width="3"/>
+  <g fill="none" stroke="#8a8074" stroke-width="2"><path d="M145 245h530M145 270h530M145 295h530M145 320h530M145 345h530"/><path d="M145 425h530M145 450h530M145 475h530M145 500h530M145 525h530"/></g>
+  <g fill="#2c2927"><circle cx="210" cy="319" r="15"/><path d="M224 319v-95h7v95z"/><circle cx="310" cy="280" r="15"/><path d="M324 280v-88h7v88z"/><circle cx="418" cy="460" r="15"/><path d="M432 460v-90h7v90z"/><circle cx="535" cy="496" r="15"/><path d="M549 496v-90h7v90z"/></g>
+  <g fill="#6e2636"><path d="M206 600h410v3H206z"/><path d="M232 620h350v3H232z"/></g>
+  <text x="815" y="520" fill="#2c2927" font-family="Georgia,serif" font-size="58">theory</text><text x="818" y="557" fill="#756b62" font-family="Arial,sans-serif" font-size="13" letter-spacing="5">PATTERNS WE HEAR</text>
+</svg>

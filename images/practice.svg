@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="t d"><title id="t">Музыкальная практика</title><desc id="d">Ноты, карандаш и метроном на рабочем столе</desc>
+  <rect width="1200" height="820" fill="#c9bcaa"/><path d="M0 630 1200 430v390H0z" fill="#69715f"/><path d="M145 95h650v580H145z" fill="#f4eee4" transform="rotate(-3 470 385)"/>
+  <g fill="none" stroke="#8c8174" stroke-width="2"><path d="M205 240h520M205 263h520M205 286h520M205 309h520M205 332h520"/><path d="M205 410h520M205 433h520M205 456h520M205 479h520M205 502h520"/></g>
+  <g fill="#6e2636"><circle cx="300" cy="307" r="14"/><path d="M313 307v-88h7v88z"/><circle cx="420" cy="275" r="14"/><path d="M433 275v-82h7v82z"/><circle cx="554" cy="468" r="14"/><path d="M567 468v-88h7v88z"/></g>
+  <path d="m750 666 255-444 28 16-255 444z" fill="#d1a44d"/><path d="m1005 222 36-62 5 81z" fill="#302c29"/>
+  <path d="M894 606 1033 310l107 296z" fill="#2f2b28"/><path d="M963 564h114l-30-184h-55z" fill="#eee6da"/><path d="M1020 378v148" stroke="#6e2636" stroke-width="5"/>
+  <text x="205" y="160" fill="#2c2927" font-family="Georgia,serif" font-size="56">practice</text><text x="209" y="195" fill="#756b62" font-family="Arial,sans-serif" font-size="12" letter-spacing="5">LISTEN · REPEAT · REST</text>
+</svg>

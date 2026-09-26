@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="t d"><title id="t">Скрипка</title><desc id="d">Скрипка и смычок на тёплом шалфейном фоне</desc>
+  <rect width="1200" height="820" fill="#69715f"/><rect x="45" y="45" width="1110" height="730" fill="#dcd4c6"/>
+  <path d="M0 635 1200 300v520H0z" fill="#6e2636" opacity=".92"/>
+  <g transform="translate(565 64) rotate(12)"><path d="M37 50h34v275H37z" fill="#4c3326"/><path d="M28 22c0-28 52-28 52 0v40H28z" fill="#3a2d26"/><path d="M23 45 3 28M82 45l20-17" stroke="#3a2d26" stroke-width="8"/>
+  <path d="M54 260c-64-13-115 33-77 95 21 34 5 57-23 86-71 74-24 219 100 219s171-145 100-219c-28-29-44-52-23-86 38-62-13-108-77-95z" fill="#a45a38" stroke="#4a3025" stroke-width="8"/>
+  <path d="M54 267v380M41 267v380M67 267v380" stroke="#eee1c5" stroke-width="2"/><path d="M6 449c-32 22-24 86 16 100M102 449c32 22 24 86-16 100" fill="none" stroke="#4a3025" stroke-width="9"/>
+  <path d="M14 462c23-15 4-40 20-56M94 462c-23-15-4-40-20-56" fill="none" stroke="#eee1c5" stroke-width="5"/><path d="M20 580h68v17H20z" fill="#3a2d26"/></g>
+  <path d="M250 730 930 102" stroke="#302c29" stroke-width="9"/><path d="M260 746 948 111" stroke="#eadfcf" stroke-width="3"/>
+  <text x="110" y="176" fill="#2e2a27" font-family="Georgia,serif" font-size="68">violin</text><text x="114" y="216" fill="#6e2636" font-family="Arial,sans-serif" font-size="14" letter-spacing="7">A STUDY OF SOUND</text>
+</svg>

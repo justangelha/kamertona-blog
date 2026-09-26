@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакты — Камертона</title>
+    <meta
+      name="description"
+      content="Связаться с редакцией музыкального блога Камертона, предложить тему или сообщить об ошибке."
+    />
+    <link rel="icon" href="images/theory.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/data.js" defer></script>
+    <script src="js/script.js" defer></script>
+  </head>
+  <body data-page="contacts">
+    <div data-site-header></div>
+    <main id="main">
+      <nav class="breadcrumbs container" aria-label="Хлебные крошки">
+        <a href="index.html">Главная</a>
+        <span>/</span>
+        <span aria-current="page">Контакты</span>
+      </nav>
+      <header class="page-hero">
+        <div class="container page-hero-inner">
+          <div>
+            <span class="eyebrow">Написать редакции</span>
+            <h1>Контакты</h1>
+          </div>
+          <p>
+            Предложите тему, задайте вопрос по материалу или расскажите, какую пьесу вы сейчас
+            разучиваете.
+          </p>
+        </div>
+      </header>
+      <section class="section container">
+        <div class="contact-grid">
+          <div class="contact-details">
+            <h2>Открыты к письмам</h2>
+            <p>
+              Обычно мы отвечаем в течение трёх рабочих дней. Этот учебный сайт работает без
+              сервера, поэтому форма демонстрирует интерфейс отправки, но не передаёт персональные
+              данные.
+            </p>
+            <ul class="contact-list">
+              <li>
+                <span>Email</span>
+                <a href="mailto:hello@kamertona.example">hello@kamertona.example</a>
+              </li>
+              <li>
+                <span>Темы</span>
+                <a href="catalog.html">Посмотреть каталог</a>
+              </li>
+              <li>
+                <span>Материалы</span>
+                <a href="favorites.html">Моё избранное</a>
+              </li>
+            </ul>
+            <p>
+              <strong>Обратите внимание:</strong>
+              адрес в домене .example используется в учебных целях и не принимает реальные письма.
+            </p>
+          </div>
+          <form class="contact-form" data-demo-form>
+            <h2>Форма сообщения</h2>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="name">Имя</label>
+                <input id="name" name="name" type="text" autocomplete="name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required />
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="topic">Тема</label>
+              <select id="topic" name="topic">
+                <option>Предложить тему</option>
+                <option>Вопрос по статье</option>
+                <option>Сообщить об ошибке</option>
+                <option>Другое</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="message">Сообщение</label>
+              <textarea
+                id="message"
+                name="message"
+                required
+                placeholder="Расскажите, чем мы можем помочь"
+              ></textarea>
+            </div>
+            <button class="primary-link" type="submit">
+              Отправить сообщение
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h14M14 7l5 5-5 5"></path>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <div data-site-footer></div>
+  </body>
+</html>

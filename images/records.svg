@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="t d"><title id="t">Музыкальная коллекция</title><desc id="d">Виниловая пластинка, конверт и наушники</desc>
+  <rect width="1200" height="820" fill="#d9d0c2"/><path d="M0 0h455v820H0z" fill="#69715f"/><path d="M120 122h570v570H120z" fill="#efe7db"/><circle cx="650" cy="407" r="292" fill="#292624"/><circle cx="650" cy="407" r="218" fill="none" stroke="#5c5650" stroke-width="3"/><circle cx="650" cy="407" r="148" fill="none" stroke="#5c5650" stroke-width="3"/><circle cx="650" cy="407" r="92" fill="#6e2636"/><circle cx="650" cy="407" r="12" fill="#e9dfd0"/>
+  <path d="M850 138c152 38 245 173 217 329M1067 467c-16 72-54 134-109 181" fill="none" stroke="#6e2636" stroke-width="18"/><path d="M958 648c-22 18-49 14-59-9l-19-45 58-27 30 39c14 18 10 29-10 42z" fill="#6e2636"/>
+  <text x="167" y="245" fill="#2b2825" font-family="Georgia,serif" font-size="55">listen</text><text x="171" y="283" fill="#6e2636" font-family="Arial,sans-serif" font-size="12" letter-spacing="6">SIDE A / SIDE B</text><path d="M170 315h210v3H170z" fill="#6e2636"/>
+</svg>

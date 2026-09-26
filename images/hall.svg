@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="t d"><title id="t">Концертный зал</title><desc id="d">Камерная сцена с роялем и рядами кресел</desc>
+  <rect width="1200" height="820" fill="#272421"/><path d="M120 70h960v550H120z" fill="#6e2636"/><path d="M190 130h820v430H190z" fill="#d8cbb9"/><circle cx="600" cy="205" r="86" fill="#efe6d9" opacity=".8"/>
+  <path d="M380 450h390c74 0 125 45 148 105H440c-47 0-78-36-60-105z" fill="#292623"/><path d="M420 525h455v45H420z" fill="#49423d"/><path d="M470 570h25l-10 120h-25zM830 570h25l25 120h-25z" fill="#292623"/>
+  <g fill="#82505a"><path d="M0 690h1200v130H0z"/><circle cx="85" cy="700" r="65"/><circle cx="245" cy="700" r="65"/><circle cx="405" cy="700" r="65"/><circle cx="565" cy="700" r="65"/><circle cx="725" cy="700" r="65"/><circle cx="885" cy="700" r="65"/><circle cx="1045" cy="700" r="65"/></g>
+  <text x="166" y="197" fill="#6e2636" font-family="Georgia,serif" font-size="43">a quiet stage</text><text x="167" y="230" fill="#655d55" font-family="Arial,sans-serif" font-size="11" letter-spacing="5">MUSIC BEFORE THE FIRST NOTE</text>
+</svg>

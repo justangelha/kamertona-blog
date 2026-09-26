@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="t d"><title id="t">Фортепиано</title><desc id="d">Стилизованные клавиши и ноты в тёплой редакционной композиции</desc>
+  <rect width="1200" height="820" fill="#d9d0c1"/><rect x="45" y="45" width="1110" height="730" fill="#eee9df"/>
+  <circle cx="920" cy="202" r="124" fill="#6e2636"/><path d="M80 560h1040v170H80z" fill="#2c2927"/><path d="M112 580h976v124H112z" fill="#f7f2e9"/>
+  <g fill="#2c2927"><path d="M174 580h34v75h-34zM266 580h34v75h-34zM403 580h34v75h-34zM495 580h34v75h-34zM587 580h34v75h-34zM724 580h34v75h-34zM816 580h34v75h-34zM953 580h34v75h-34z"/></g>
+  <path d="M230 157h450v300H230z" fill="#fffaf1" stroke="#b6aa98" stroke-width="3"/>
+  <g fill="none" stroke="#807568" stroke-width="2"><path d="M270 240h370M270 263h370M270 286h370M270 309h370M270 332h370"/><path d="M270 362h370M270 385h370M270 408h370M270 431h370"/></g>
+  <g fill="#6e2636"><circle cx="342" cy="275" r="12"/><path d="M352 275v-75h6v75z"/><circle cx="431" cy="310" r="12"/><path d="M441 310v-66h6v66z"/><circle cx="535" cy="252" r="12"/><path d="M545 252v-70h6v70z"/></g>
+  <text x="760" y="420" fill="#2c2927" font-family="Georgia,serif" font-size="64">piano</text><text x="764" y="455" fill="#776e65" font-family="Arial,sans-serif" font-size="14" letter-spacing="7">NOTES &amp; PRACTICE</text>
+</svg>

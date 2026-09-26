@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Каталог публикаций — Камертона</title>
+    <meta
+      name="description"
+      content="Все материалы блога Камертона: фортепиано, скрипка, теория музыки, статьи и тематические подборки."
+    />
+    <link rel="icon" href="images/theory.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/data.js" defer></script>
+    <script src="js/script.js" defer></script>
+  </head>
+  <body data-page="catalog">
+    <div data-site-header></div>
+    <main id="main">
+      <nav class="breadcrumbs container" aria-label="Хлебные крошки">
+        <a href="index.html">Главная</a>
+        <span>/</span>
+        <span aria-current="page">Каталог</span>
+      </nav>
+      <header class="page-hero">
+        <div class="container page-hero-inner">
+          <div>
+            <span class="eyebrow">Библиотека блога</span>
+            <h1>Каталог материалов</h1>
+          </div>
+          <p>
+            Маршруты для начинающих, упражнения, понятная теория и музыка для следующего вечера у
+            инструмента.
+          </p>
+        </div>
+      </header>
+      <div class="filter-bar">
+        <div class="container filters" aria-label="Фильтр публикаций">
+          <button class="filter-button" type="button" data-filter="Все" aria-pressed="true">
+            Все
+          </button>
+          <button class="filter-button" type="button" data-filter="Фортепиано" aria-pressed="false">
+            Фортепиано
+          </button>
+          <button class="filter-button" type="button" data-filter="Скрипка" aria-pressed="false">
+            Скрипка
+          </button>
+          <button
+            class="filter-button"
+            type="button"
+            data-filter="Теория музыки"
+            aria-pressed="false"
+          >
+            Теория музыки
+          </button>
+          <button class="filter-button" type="button" data-filter="Статьи" aria-pressed="false">
+            Статьи
+          </button>
+          <button class="filter-button" type="button" data-filter="Подборки" aria-pressed="false">
+            Подборки
+          </button>
+        </div>
+      </div>
+      <section class="section container">
+        <div class="catalog-head">
+          <h2 data-catalog-heading>Все материалы</h2>
+          <span class="catalog-count" data-catalog-count></span>
+        </div>
+        <div class="card-grid" data-catalog-grid></div>
+        <div class="empty-state" data-catalog-empty hidden>
+          <h2>В этом разделе пока нет материалов</h2>
+          <p>Сбросьте фильтр или откройте полный каталог.</p>
+        </div>
+      </section>
+    </main>
+    <div data-site-footer></div>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Избранные материалы — Камертона</title>
+    <meta
+      name="description"
+      content="Сохранённые вами публикации музыкального блога Камертона. Список хранится локально в браузере."
+    />
+    <link rel="icon" href="images/theory.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/data.js" defer></script>
+    <script src="js/script.js" defer></script>
+  </head>
+  <body data-page="favorites">
+    <div data-site-header></div>
+    <main id="main">
+      <nav class="breadcrumbs container" aria-label="Хлебные крошки">
+        <a href="index.html">Главная</a>
+        <span>/</span>
+        <span aria-current="page">Избранное</span>
+      </nav>
+      <header class="page-hero">
+        <div class="container page-hero-inner">
+          <div>
+            <span class="eyebrow">Ваша личная полка</span>
+            <h1>Избранное</h1>
+          </div>
+          <p>
+            Материалы сохраняются только на этом устройстве и остаются здесь после закрытия
+            браузера.
+          </p>
+        </div>
+      </header>
+      <section class="section container">
+        <div class="catalog-head">
+          <h2>Сохранённые статьи</h2>
+          <span class="catalog-count" data-favorites-count></span>
+        </div>
+        <div class="card-grid" data-favorites-grid></div>
+        <div class="empty-state" data-favorites-empty>
+          <h2>Здесь пока тихо</h2>
+          <p>Нажмите на значок сердца в любой карточке, чтобы сохранить материал.</p>
+          <a class="primary-link" href="catalog.html">
+            Перейти в каталог
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 12h14M14 7l5 5-5 5"></path>
+            </svg>
+          </a>
+        </div>
+      </section>
+    </main>
+    <div data-site-footer></div>
+  </body>
+</html>
